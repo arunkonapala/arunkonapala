@@ -11,6 +11,7 @@ I work at the intersection of **agentic AI** (multi-agent orchestration, tool us
 | Project | What it is | Stack |
 |---|---|---|
 | [llm-eval-harness](https://github.com/arunkonapala/llm-eval-harness) | LLM evaluation harness — DeepEval metric suite (relevancy, correctness, bias, toxicity, hallucination) over configurable judge/candidate models with consolidated pass/fail reporting | DeepEval · Python · Bedrock · Flask |
+| [finance-mcp-server](https://github.com/arunkonapala/finance-mcp-server) | MCP server exposing 8 personal-finance tools to any MCP client (Claude Desktop, Claude Code, custom agents) | MCP · FastMCP · Python |
 | [finance-copilot](https://github.com/arunkonapala/finance-copilot) | Conversational personal-finance assistant — streaming agentic tool-use loop, 8 finance tools, SSE to an Angular chat UI, provider-pluggable backend | Python · FastAPI · Claude · Angular |
 | [financial-doc-qa-rag](https://github.com/arunkonapala/financial-doc-qa-rag) | RAG over annual reports & SEC filings with page-level citations | LangChain · FAISS · Cohere · Claude · AWS S3 |
 | [healthcare-multiagent-chatbot](https://github.com/arunkonapala/healthcare-multiagent-chatbot) | Multi-agent healthcare consultation chatbot (AutoMed) | AG2 (AutoGen) · Claude |
