@@ -11,6 +11,7 @@ I work at the intersection of **agentic AI** (multi-agent orchestration, tool us
 | Project | What it is | Stack |
 |---|---|---|
 | [fraud-triage-agent](https://github.com/arunkonapala/fraud-triage-agent) | Agentic fraud triage — deterministic rules gate a LangGraph Claude investigator that tool-calls over the customer ledger and drafts SAR narratives with structured verdicts | LangGraph · Claude · FastAPI · Pydantic |
+| [agent-observability](https://github.com/arunkonapala/agent-observability) | OTel observability layer for agent loops — spans per turn/tool/LLM call with token + USD cost attribution (GenAI semconv); traces fraud-triage-agent and finance-copilot, Jaeger screenshot in README | OpenTelemetry · LangChain · Jaeger |
 | [llm-eval-harness](https://github.com/arunkonapala/llm-eval-harness) | LLM evaluation harness — DeepEval metric suite (relevancy, correctness, bias, toxicity, hallucination) over configurable judge/candidate models with consolidated pass/fail reporting | DeepEval · Python · Bedrock · Flask |
 | [finance-mcp-server](https://github.com/arunkonapala/finance-mcp-server) | MCP server exposing 8 personal-finance tools to any MCP client (Claude Desktop, Claude Code, custom agents) | MCP · FastMCP · Python |
 | [finance-copilot](https://github.com/arunkonapala/finance-copilot) | Conversational personal-finance assistant — streaming agentic tool-use loop, 8 finance tools, SSE to an Angular chat UI, provider-pluggable backend | Python · FastAPI · Claude · Angular |
